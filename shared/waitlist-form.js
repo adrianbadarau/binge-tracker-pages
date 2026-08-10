@@ -7,7 +7,7 @@
   'use strict';
 
   // Config - Web3Forms Access Key (Users can replace this string with their key, or use fallback)
-  const WEB3FORMS_ACCESS_KEY = "YOUR_WEB3FORMS_ACCESS_KEY"; 
+  const WEB3FORMS_ACCESS_KEY = "d8722647-1462-4987-a129-aee42bd31d96";
 
   document.addEventListener('DOMContentLoaded', () => {
     initWaitlistForms();
