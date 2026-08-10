@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BingeTracker — Stop Overpaying for Streaming. Rotate & Save $300+/Year</title>
+  <meta name="description" content="Stop paying for 5 streaming services at once. BingeTracker automatically rotates your streaming subscriptions based on what you actually watch. Founding Members get 50% off their first year.">
+  <link rel="stylesheet" href="shared/styles.css">
+</head>
+<body>
+
+  <!-- Sticky Header with Navigation & Variant Switcher -->
+  <header class="header">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+      <a href="index.html" class="brand">
+        <div class="brand-icon">B</div>
+        <span>BingeTracker</span>
+      </a>
+
+      <!-- Variant Switcher Bar for GitHub Pages testing -->
+      <nav class="variant-switcher">
+        <a href="index.html" class="variant-btn active">Variant 1: Main Waitlist</a>
+        <a href="bleed-calculator/index.html" class="variant-btn">Variant 2: Calculator</a>
+        <a href="vs-rocket-money/index.html" class="variant-btn">Variant 3: vs Trackers</a>
+      </nav>
+
+      <div class="badge badge-live">
+        <span class="pulse-dot"></span>
+        <span>Pre-Launch Access</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div style="margin-bottom: 16px;">
+        <span class="badge" style="background: rgba(91, 19, 236, 0.25); color: #C4A2FF; font-size: 0.85rem; padding: 6px 16px;">
+          ⚡ Early-Bird Launch Offer
+        </span>
+      </div>
+
+      <h1 class="hero-title">
+        Stop paying for 5 streaming services at once.<br>
+        <span class="gradient-text">Rotate them. Save $300–$480 a year.</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        BingeTracker turns your watchlists into an automated rotation queue. Watch Netflix this month, cancel, switch to Max next month, repeat. Never pay for unwatched content again.
+      </p>
+
+      <!-- Form Container -->
+      <div class="form-container" style="max-width: 540px; margin: 0 auto;">
+        
+        <form class="waitlist-form js-waitlist-form" data-variant="main_early_bird">
+          <div class="form-group">
+            <input type="email" class="input-email" placeholder="Enter your email address" required aria-label="Email address">
+            <button type="submit" class="btn-submit">
+              Get Launch Access
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+          <div class="form-hint">
+            <span>🔒 Free early access + lock in <strong style="color: #FFB59B;">50% off your first year</strong> (<span class="js-spots-count">142</span>/500 Founding Member spots left)</span>
+          </div>
+        </form>
+
+        <div class="form-success">
+          <h3 style="font-size: 1.2rem; margin-bottom: 6px; color: #fff;">🎉 You're on the Founding Member list!</h3>
+          <p style="font-size: 0.95rem; color: var(--text-muted);">
+            We've locked in your <strong>50%-off-first-year Founding Member deal</strong>. Check your email when launch day arrives!
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Value Hook Card -->
+    <section style="margin-top: 40px;">
+      <div class="glass-card" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; align-items: center;">
+        <div>
+          <span class="badge" style="margin-bottom: 12px;">The Smart Binge Batcher</span>
+          <h2 style="font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 12px;">
+            Why pay $70/month when you can pay $15?
+          </h2>
+          <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 20px;">
+            Most households subscribe to 4 to 6 streaming services continuously, but only watch one main show per month. BingeTracker analyzes your show list, calculates episode time debt, and tells you exactly which 1 platform to activate each month.
+          </p>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; color: var(--text);">
+            <li style="display: flex; align-items: center; gap: 8px;">
+              <span class="check-icon">✓</span> No credit card required, zero bank linking needed.
+            </li>
+            <li style="display: flex; align-items: center; gap: 8px;">
+              <span class="check-icon">✓</span> TMDB show search & 1-click watch links built-in.
+            </li>
+            <li style="display: flex; align-items: center; gap: 8px;">
+              <span class="check-icon">✓</span> 1-click cancellation URLs when rotation turns over.
+            </li>
+          </ul>
+        </div>
+
+        <div style="background: var(--surface-low); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 24px;">
+          <h3 style="font-size: 1rem; color: var(--text-strong); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px;">
+            Typical Monthly Rotation Example
+          </h3>
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <div style="display: flex; justify-content: space-between; padding: 12px; background: rgba(91, 19, 236, 0.15); border-left: 3px solid var(--primary); border-radius: 4px;">
+              <div>
+                <strong style="color: #fff;">Month 1: Max ($16.99)</strong>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Watch: House of the Dragon (S2), The Last of Us</div>
+              </div>
+              <span style="color: var(--success); font-weight: 700;">ACTIVE</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 12px; background: var(--surface-lowest); border-radius: 4px; opacity: 0.7;">
+              <div>
+                <strong>Month 2: Apple TV+ ($9.99)</strong>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Watch: Severance (S2), Ted Lasso</div>
+              </div>
+              <span style="color: var(--text-muted);">PAUSED</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 12px; background: var(--surface-lowest); border-radius: 4px; opacity: 0.7;">
+              <div>
+                <strong>Month 3: Netflix ($15.49)</strong>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Watch: Stranger Things (S5), Squid Game</div>
+              </div>
+              <span style="color: var(--text-muted);">PAUSED</span>
+            </div>
+          </div>
+          <div style="margin-top: 16px; text-align: center; padding-top: 12px; border-top: 1px dashed var(--border); font-size: 0.9rem; color: var(--text-strong);">
+            Standard cost: <strong>$51.97/mo</strong> → Rotated cost: <strong>$14.15/mo average</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Strategy & Tier Guarantee -->
+    <section style="margin-top: 60px; text-align: center;">
+      <h2 style="font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 12px;">
+        Simple, Transparent Pricing
+      </h2>
+      <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 36px;">
+        BingeTracker is designed to save you money, not become another costly subscription.
+      </p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; max-width: 800px; margin: 0 auto;">
+        
+        <!-- Free Tier Card -->
+        <div class="glass-card" style="text-align: left;">
+          <h3 style="font-size: 1.25rem; color: #fff;">Free Tier</h3>
+          <div style="font-size: 2rem; font-weight: 800; color: #fff; margin: 12px 0;">$0</div>
+          <p style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 20px;">Perfect for tracking shows & basic watchlist organization.</p>
+          <ul style="list-style: none; font-size: 0.9rem; display: flex; flex-direction: column; gap: 8px; color: var(--text);">
+            <li>✓ Unlimited Watchlist & Episode Tracking</li>
+            <li>✓ TMDB Show Search & Watch Links</li>
+            <li>✓ 1 Rotation Queue run per month</li>
+          </ul>
+        </div>
+
+        <!-- Founding Member Deal Card -->
+        <div class="glass-card" style="text-align: left; border-color: var(--primary); background: linear-gradient(180deg, rgba(91, 19, 236, 0.2), rgba(31, 24, 48, 0.7)); position: relative;">
+          <div style="position: absolute; top: -12px; right: 20px;" class="badge">BEST VALUE FOR EARLY MEMBERS</div>
+          <h3 style="font-size: 1.25rem; color: #fff;">Founding Member (Waitlist Only)</h3>
+          <div style="font-size: 2rem; font-weight: 800; color: var(--accent-cyan); margin: 12px 0;">$9.99 <span style="font-size: 0.9rem; color: var(--text-muted); font-weight: 400;">first year · then $19.99/yr</span></div>
+          <p style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 20px;">50% off Pro for your entire first year. No lifetime lock-ins, cancel anytime.</p>
+          <ul style="list-style: none; font-size: 0.9rem; display: flex; flex-direction: column; gap: 8px; color: var(--text);">
+            <li>✓ Everything in Free</li>
+            <li>✓ <strong>Unlimited Smart Binge Batcher Queue</strong></li>
+            <li>✓ <strong>Cost-minimized Subscription Optimizer</strong></li>
+            <li>✓ Household profiles (up to 5)</li>
+            <li>✓ Renewal & price-change alerts</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Van Westendorp Pricing Sensitivity Modal -->
+  <div class="modal-backdrop" id="pricing-survey-modal">
+    <div class="modal-card">
+      <button class="modal-close js-close-modal">&times;</button>
+      <span class="badge" style="margin-bottom: 8px;">Help Shape BingeTracker Pricing</span>
+      <h3 style="font-size: 1.35rem; font-weight: 800; color: #fff; margin-bottom: 10px;">
+        Quick 30-Second Pricing Survey (Optional)
+      </h3>
+      <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 20px;">
+        As a waitlist member, your feedback directly decides our final monthly subscription pricing.
+      </p>
+
+      <form id="survey-form" style="display: flex; flex-direction: column; gap: 14px;">
+        <div>
+          <label style="font-size: 0.85rem; color: var(--text-strong); display: block; margin-bottom: 4px;">
+            1. At what monthly price would BingeTracker be so cheap you'd question its quality?
+          </label>
+          <input type="number" step="0.50" name="too_cheap" class="input-email" placeholder="e.g. $0.99/mo" style="width: 100%; padding: 10px 14px;">
+        </div>
+
+        <div>
+          <label style="font-size: 0.85rem; color: var(--text-strong); display: block; margin-bottom: 4px;">
+            2. At what monthly price would it be a great deal / bargain?
+          </label>
+          <input type="number" step="0.50" name="bargain" class="input-email" placeholder="e.g. $2.99/mo" style="width: 100%; padding: 10px 14px;">
+        </div>
+
+        <div>
+          <label style="font-size: 0.85rem; color: var(--text-strong); display: block; margin-bottom: 4px;">
+            3. At what price would it start to feel expensive, but still acceptable?
+          </label>
+          <input type="number" step="0.50" name="expensive" class="input-email" placeholder="e.g. $4.99/mo" style="width: 100%; padding: 10px 14px;">
+        </div>
+
+        <div>
+          <label style="font-size: 0.85rem; color: var(--text-strong); display: block; margin-bottom: 4px;">
+            4. At what price would it be too expensive to consider?
+          </label>
+          <input type="number" step="0.50" name="too_expensive" class="input-email" placeholder="e.g. $8.99/mo" style="width: 100%; padding: 10px 14px;">
+        </div>
+
+        <button type="submit" class="btn-submit" style="margin-top: 8px;">
+          Submit Feedback
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer container">
+    <p>&copy; 2026 BingeTracker. Built for smart cord-cutters. Hostable on GitHub Pages.</p>
+  </footer>
+
+  <script src="shared/waitlist-form.js"></script>
+</body>
+</html>
