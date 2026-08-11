@@ -201,15 +201,17 @@
   <script src="../shared/waitlist-form.js"></script>
   <script>
     // Interactive Calculator Script
+    // Prices verified Aug 2026 (US, ad-free standard tier): streaming-wars tracker (Jul 2026),
+    // Decider (Aug 2026), PCMag (Mar 2026), subscriptionpriceguide.com (Jul 2026)
     const SERVICES = [
-      { id: 'netflix', name: 'Netflix Standard', price: 15.49, defaultSelected: true },
-      { id: 'max', name: 'Max (HBO)', price: 16.99, defaultSelected: true },
-      { id: 'disney', name: 'Disney+', price: 13.99, defaultSelected: true },
-      { id: 'hulu', name: 'Hulu', price: 9.99, defaultSelected: true },
-      { id: 'apple', name: 'Apple TV+', price: 9.99, defaultSelected: false },
-      { id: 'prime', name: 'Amazon Prime Video', price: 14.99, defaultSelected: true },
-      { id: 'paramount', name: 'Paramount+', price: 11.99, defaultSelected: false },
-      { id: 'peacock', name: 'Peacock', price: 7.99, defaultSelected: false }
+      { id: 'netflix', name: 'Netflix Standard (No Ads)', price: 19.99, defaultSelected: true },
+      { id: 'max', name: 'HBO Max (No Ads)', price: 18.49, defaultSelected: true },
+      { id: 'disney', name: 'Disney+ (No Ads)', price: 18.99, defaultSelected: true },
+      { id: 'hulu', name: 'Hulu (No Ads)', price: 18.99, defaultSelected: true },
+      { id: 'apple', name: 'Apple TV', price: 12.99, defaultSelected: false },
+      { id: 'prime', name: 'Amazon Prime (incl. Video)', price: 14.99, defaultSelected: true },
+      { id: 'paramount', name: 'Paramount+ (No Ads, incl. SHOWTIME)', price: 13.99, defaultSelected: false },
+      { id: 'peacock', name: 'Peacock Premium Plus (No Ads)', price: 16.99, defaultSelected: false }
     ];
 
     const state = new Set(SERVICES.filter(s => s.defaultSelected).map(s => s.id));
